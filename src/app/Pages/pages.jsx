@@ -7,7 +7,7 @@ export default function HomePage() {
     console.log(featuredEvents)
 
     return (
-        <div className='flex flex-col gap-2 px-4 py-4'>
+        <div className='flex flex-col gap-12 bg-green-100 items-center justify-center w-screen h-screen'>
             <EventList items={featuredEvents} />
         </div>
     )
