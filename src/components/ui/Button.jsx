@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export default function Button(props) {
-    const {id} = props
+  const { id } = props
     return (
       <Link
         href={`/events/${id}`}

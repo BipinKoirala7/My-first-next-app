@@ -8,6 +8,7 @@
 *{
     margin: 0;
     font-family:'Karla';
+    box-sizing: border-box;
 }
 
 .ui-gradient{
